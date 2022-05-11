@@ -15,7 +15,7 @@ img{
     height: 200px;
     width: 150px;
     padding: 6px;
-    border: 2px solid #43860e;
+    border: 2px solid #330721;
 }
 
 .image{
@@ -24,18 +24,20 @@ img{
 
 .cards-container{
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
   flex-wrap: wrap;
+  background-image: url(/public/assets/harrypotter.jpg);
 }
 
 .card-single{
-  border-radius: 5px;
+    border-radius: 5px;
     box-shadow: 0px 10px 20px -10px rgb(0 0 0 / 75%);
     padding-top: 30px;
     position: relative;
     height: 470px;
     text-align: center;
-    background: #ffecb3d1;
+    background: #e8c7e17a;
+    /* background: #ffecb3d1; */
     margin: 5px;
     max-width: 200px;
 }

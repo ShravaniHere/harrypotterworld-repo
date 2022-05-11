@@ -22,9 +22,8 @@ useEffect( () => {
     fetchProfileData();
  }, []);
 
-    return(
-    
-            <ProfileCard profiles={profiles.data} />
+    return(    
+        <ProfileCard profiles={profiles.data} />
     )
 }
 
