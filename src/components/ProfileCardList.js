@@ -23,9 +23,8 @@ useEffect( () => {
  }, []);
 
     return(
-        <div className="profilecards">
+    
             <ProfileCard profiles={profiles.data} />
-        </div>
     )
 }
 

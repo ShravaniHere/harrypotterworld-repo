@@ -14,16 +14,14 @@ const ProfileCard = ({profiles}) =>{
                         <div className="description">
                             <h3>{profile.character}</h3>
                             <h4>{profile.hogwartsHouse}</h4>
-                            <p>
-                            {/* {profile.child.length >=1 && <h5>Children :</h5> } */}
-                            {profile.child.length >=1 ? <h5>Children :</h5> : profile.child.length===0 ? 'No Child' : <h5>Children :</h5> }
-                                {profile.child.map( child => <li>{child}</li> )}
+                            {profile.child.length >=1 ? <h5>Children</h5> : ( profile.child.length===0 ? 'No Child' : <h5>Children :</h5> ) }
+                            <p>    
+                                {profile.child.map( (child, i) => <li key={i}>{child}</li> )}
                             </p>
                         </div>
                     </div>
                 )
             })}
-            {JSON.stringify(profiles)}
         </div>
     )
 }
