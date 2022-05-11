@@ -7,7 +7,23 @@ body{
   background: linear-gradient(215deg, #71b073 29.9%, #2776aa 80%), 
   linear-gradient(304deg, rgba(255, 101, 53, 0.4) 24.9%, #aa2743 91%), 
   linear-gradient(10deg, #b1c9d8 19.9%, #2776aa 50%), 
-  linear-gradient(145deg, #f4df26 15.9%, #ff1b9a 40%);
+  linear-gradient(145deg, #f4df26 15.9%, #ff1b9a 40%);  
+  background-image: url(/public/assets/harrypotter.jpg);
+}
+
+h3{
+  padding: 15px;
+  color:rgb(51 8 49);
+}
+
+h4{
+  color:rgb(51 8 49);
+}
+
+h5{
+  padding: 5px;
+  color: rgb(75 37 64);
+  
 }
 
 img{
@@ -18,15 +34,25 @@ img{
     border: 2px solid #330721;
 }
 
+p{  
+  color: rgb(238 204 228);
+  padding: 5px;
+}
+
+li{
+  list-style: none;
+}
+
 .image{
-  width: 200px;
+  width: 220px;
 }
 
 .cards-container{
   display: flex;
   justify-content: start;
   flex-wrap: wrap;
-  background-image: url(/public/assets/harrypotter.jpg);
+  margin-top: 20px;
+  margin-left: 40px;
 }
 
 .card-single{
@@ -34,10 +60,12 @@ img{
     box-shadow: 0px 10px 20px -10px rgb(0 0 0 / 75%);
     padding-top: 30px;
     position: relative;
-    height: 470px;
+    height: 512px;
+    max-height: 520px;
     text-align: center;
     background: #e8c7e17a;
     /* background: #ffecb3d1; */
     margin: 5px;
-    max-width: 200px;
+    max-width: 220px;
+    font-family: 'Pacifico', cursive;
 }
